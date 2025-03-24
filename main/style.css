@@ -450,3 +450,77 @@ footer {
 .dark-mode-toggle:hover {
   background-color: #7e35b1;
 }
+
+/* responsive UI  */
+/* Responsive Design */
+@media (max-width: 1200px) {
+  body {
+    margin: 0 5rem;
+  }
+  .nav-bar {
+    flex-direction: column;
+    margin: 2rem 0;
+  }
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-box img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .second_sec {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0 2rem;
+  }
+  .logo {
+    font-size: 36px;
+  }
+  .nav-links a {
+    padding: 0 10px;
+  }
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .right-box {
+    width: 100%;
+  }
+  .right-box img {
+    width: 100%;
+  }
+  .second_sec, .thirdSection {
+    flex-direction: column;
+    text-align: center;
+  }
+  .chart {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 0 1rem;
+  }
+  .logo {
+    font-size: 28px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .main {
+    height: auto;
+  }
+  .buttons .btn {
+    margin: 1rem 0;
+  }
+  .chart {
+    width: 100%;
+  }
+}
