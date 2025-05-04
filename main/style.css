@@ -11,6 +11,21 @@ body {
 
 /* navigation bar */
 
+/* CSS for Responsive Layout */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 300px; /* Grow, shrink, and set a base width */
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
 .main {
   height: 670px;
 }
